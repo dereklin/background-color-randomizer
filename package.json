@@ -1,6 +1,6 @@
 {
   "name": "background-color-randomizer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Randomize brower's background color",
   "main": "build/index.js",
   "scripts": {
