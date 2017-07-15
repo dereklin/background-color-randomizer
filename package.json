@@ -1,0 +1,38 @@
+{
+  "name": "background-color-randomizer",
+  "version": "1.0.0",
+  "description": "Randomize brower's background color",
+  "main": "build/index.js",
+  "scripts": {
+    "dev": "watch \"npm run build\" src",
+    "build": "babel src -d build",
+    "test": "jest",
+    "test:watch": "npm test -- --watch"
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dereklin/background-color-randomizer.git"
+  },
+  "keywords": [
+    "background",
+    "color",
+    "randomizer"
+  ],
+  "author": "Derek Lin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dereklin/background-color-randomizer/issues"
+  },
+  "homepage": "https://github.com/dereklin/background-color-randomizer#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "jest": "^20.0.4",
+    "watch": "^1.0.1"
+  }
+}
